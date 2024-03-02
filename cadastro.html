@@ -5,28 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar</title>
 
-    <style>
-        body{
-            background-color: antiquewhite;
-        }
-        input{
-            padding: 5px;
-            margin: 1px;
-        }
-        #btnCadastrar{
-            position:relative;
-            left: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="estilos/styles.css">
 </head>
 <body>
-    <h3>Cadastro</h3>
-    <form action="index.html" method="post">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome"><br>
-        <label for="nome">Email</label>
-        <input type="text" name="email" id="email"><br>
-        <input type="submit" value="Cadastrar" id="btnCadastrar">
-    </form>
+    <div id="header">
+        <h3>Cadastro</h3>
+    </div>
+
+    <div id="principal">
+        <form action="index.html" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome"><br>
+            <label for="nome">Email</label>
+            <input type="text" name="email" id="email"><br>
+            <input type="submit" value="Cadastrar" id="btnCadastrar">
+        </form>
+    </div>
+
 </body>
 </html>

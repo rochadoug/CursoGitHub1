@@ -1,8 +1,29 @@
-#div1 {
-    width: 800px; 
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+#principal {
+    
     height: 500px; 
-    color:rgb(99, 20, 75);
-    background-color: rgb(143, 179, 202);
+    color:rgb(230, 30, 40);
+    background-color: rgba(13, 27, 145, 0.932);
     padding: 5px;
     text-align: center;
+}
+
+a, #principal p{
+    color: aliceblue;
+}
+a:hover{
+    color: bisque;
+}
+
+input{
+    padding: 5px;
+    margin: 1px;
+}
+#btnCadastrar{
+    position:relative;
+    left: 100px;
 }
